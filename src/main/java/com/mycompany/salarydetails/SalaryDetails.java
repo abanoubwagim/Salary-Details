@@ -13,16 +13,16 @@ public class SalaryDetails {
         
 
         
-        System.out.println("Enter Your Salary : ");
-        salary = sc.nextDouble();
+        System.out.println("Enter Your Salary : "); 
+        salary = sc.nextDouble();   // Example  Your Salary is 10000
         System.out.println("Enter The Tax : ");
-        taxes = sc.nextDouble();
-        taxes = taxes/100;
+        taxes = sc.nextDouble();    //  Your Taxes is 10%
+        taxes = taxes/100;     // 0.10
         System.out.println("Enter The Incentive : " );
-        incentive= sc.nextInt();
+        incentive= sc.nextInt();   // Your Incentive is 500
         System.out.println();
-        salaryaftertax = salary - (salary * taxes);
-        netsalary = salaryaftertax + incentive;
+        salaryaftertax = salary - (salary * taxes);   // 10000 - (10000 * 0.10) = 
+        netsalary = salaryaftertax + incentive;  // 9000 + 500  The final Salary is 9500
     }
     
      public static void printSalary()
