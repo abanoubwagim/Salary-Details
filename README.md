@@ -2,4 +2,4 @@ The Project Talks about a Salary Takes The numbers from the user Then Calculate 
 
 This project contains Two methods.                 
                       
-This Project was worked on by NetBeans.
+This Project was worked by NetBeans.
